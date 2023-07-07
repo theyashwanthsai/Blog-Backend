@@ -10,7 +10,7 @@ const port = 3000;
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://taddishetty34:Tsaiyashwanth2498@cluster0.oao2b28.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('MONGODB_URL', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
